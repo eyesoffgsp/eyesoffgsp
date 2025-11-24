@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyes Off GSP | Learn More</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+
+    <!-- navigation bar -->
+    <nav>
+        <button onclick="goHome()">Home</button>
+        <button onclick="goLearn()">Learn More</button>
+        <button onclick="goContact()">Contact</button>
+        <button onclick="goFoia()">FOIA</button>
+    </nav>
+
+    <!-- back to top button-->    
+    <div class="back2top"><button onclick="b2top()" title="Go to top">^Top</button></div>
+
+    <!-- Blue band-->
+    <div class="container-fluid">
+        <h1>Learn More</h1>
+        <p style="color: #0a485f">
+            1 <br> 2<br> 3<br>
+        </p>
+    </div>
+
+    <!-- Table of Contents -->    
+    <div class="foia-agency">
+        <h6 style="padding: 10px 0 10px 10px;">Table of Contents</h6>
+
+         
+        <p style="padding: 0 10px 0 10px;"> Click any of the items below to jump to that section
+            <ol>
+                <li><a href="#section-1">Cybersecurity Concerns</a><br /></li>
+                <li><a href="#section-2">Is Flock Effective?</a><br /></li>
+                <li><a href="#section-3">Transparency</a><br /></li>
+            </ol>
+            <br>
+        </p>
+     </div>
+
+    <!-- Cybersecurity Concerns -->    
+    <div class="lmsection" id="section-1">
+        <h4 style="padding: 10px 0 10px 10px;">1. Cybersecurity Concerns</h4>
+
+         
+        <p> 
+            Thanks to independent researchers who took it upon themselves to ethically hack offline Flock devices, we have
+            some insight into the security measures (or lack-therof) that Flock has gone to to protect the vast amount of personal data they 
+            collect on Americans. Below are some highlights from the published research report<sup>[1]</sup> and a
+            video by another researcher, Benn Jordan<sup>[2]</sup> covering it, as well as Flock's official response.<br><br>
+
+            The first half of the video shows a detailed account of some of the most basic security vulnerabilities found in the 
+            Flock systems, as well as demonstrates that their claims about image deletion and encryption are blatantly false. These are 
+            not small issues that can be fixed with guardrails or use-policies. In fact, Flock's security is so lacking that 
+            Oregon Senator Ron Wyden is urging the FTC to investigate Flock for "needlessly exposing Americans' personal data to 
+            theft by hackers, foreign spies, and criminals."<sup>[3]</sup> <br><br>
+
+            Here are some highlights from the report:
+            <ul>
+                <li>One of the devices tested was running an old version of Android that stopped getting security updates in 2022. <i>Finding #18 p. 40</i></li>
+                <li>Buttons and ports are physically accessible on the underside of one of the LPR cameras. <i>Executive Summary p. 11</i></li>
+                <li>Pressing any such button 3 times will turn on the wifi hotspot where you can use the weak default password to connect via your phone or laptop. <i>Finding #28 p.51</i></li>
+                <li>Secure boot was disabled on all 3 devices tested. This opens up vulnerability to certain types of malware attacks, which can evade detection and give remote control to a bad actor, to execute during boot. <i>Finding #1 p.16, Finding #12 p.34, Finding #21 p.44</i></li>
+            </ul>
+             
+            This level of security is a joke and is a testament to a fundamental lack of organizational respect for the security and privacy of customer and public data. <br><br>
+
+            Flock acknowledged and responded on their blog in May 2025<sup>[4]</sup> to the initial public disclosure from the researchers and in Nov 2025<sup>[5]</sup> to the published report. They made no attempt to discredit the research,
+            thus legitimizing it and showing us that we can trust the information. The posts were mostly typical corporate speak but a few things stood out.
+            <!--First, there was no mention of any remediation. Surely, if they intended to make the necessary hardware and software updates, then they 
+            would make a point to reassure their customers and the public. But they made no promises to be held to. In fact,--> The below quote, which appears 
+            in bold text on their blog, really speaks to their priorities:
+        </p>
+
+        <div class="quotes"> 
+            "Overall, none of the vulnerabilities detailed in the report have an impact on our customers' ability to carry out their public safety objectives."<sup>[4]</sup>
+        </div>
+
+        <p>
+            Members of the general public, the ones who stand to lose the most in the event of a security breach at Flock, are not customers of Flock.
+            So long as the customers (government agencies and private businesses) don't lose access to their tracking tools, everything else is an afterthought.
+            But even then, one of the vulnerabilities was possible remote control by a bad actor, so their statement isn't even true. They blatantly lied to their customers. <br><br>
+
+            Flock also tried to downplay the vulnerabilities in their blog posts, but they offered some weak examples: <br><br>
+        </p>
+
+        <div class="quotes"> 
+            "Exploitation of these vulnerabilities would... require physical access to a device...<sup>[4]</sup> typically placed on a pole several feet above normal height."<sup>[5]</sup>
+            </div>
+
+        <p>
+            LPR cameras are left unattended on the side of the road. It's reasonable to expect that anyone can get physical access to these devices,
+            no Mission Impossible stunts required. Unless you consider ladders to require specialized skill and access.
+        </p>
+    </div>
+
+    <hr width="50%" size="2" color="black" style="margin-top: 50px; margin-bottom: 100px;" noshade>
+
+     <!--Efficacy-->
+    <div class="lmsection" id="section-2">
+        <h4 style="padding: 10px 0 10px 10px;">2. Is Flock Effective?</h4>
+
+         
+        <p> coming soon
+        </p>
+    </div>
+
+    <!--Transparency-->
+    <div class="lmsection" id="section-3">
+        <h4 style="padding: 10px 0 10px 10px;">3. Transparency</h4>
+
+        <img src="wayback-optz.png" alt="the wayback machine flock url error: sorry, this url has been excluded from the wayback machine">
+        <p> coming soon
+        </p>
+    </div>
+     
+    <!-- references-->
+    <div class="myRef">
+        <p id="references"> References</p>
+        <ol>
+            <li> Gaines, Jon; Cohen, Joseph (11-05-2025). <a href="https://zenodo.org/records/17529424">"Examining the Security Posture of an Anti-Crime Ecosystem."</a> <i>zenodo.</i> </li>
+            <li> Jordan, Benn (11-15-2025). <a href="https://www.youtube.com/watch?v=uB0gr7Fh6lY">"We Hacked Flock Safety Cameras in under 30 Seconds."</a> <i>YouTube.</i> </li>
+            <li> <a href="https://www.wyden.senate.gov/news/press-releases/wyden-krishnamoorthi-urge-ftc-to-investigate-surveillance-tech-company-on-negligently-handling-americans-personal-data">"Wyden, Krishnamoorthi Urge FTC to Investigate Surveillance Tech Company on Negligently Handling Americans' Personal Data."</a> <i>senate.gov</i> </li>
+            <li> <a href="https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices">"Response to Compiled Security Research on Flock Safety Devices."</a> <i>Flock Safety.</i> </li>
+            <li> <a href="https://www.flocksafety.com/blog/gunshot-detection-and-license-plate-reader-security-alert">"Gunshot Detection and License Plate Reader Security Alert."</a> <i>Flock Safety.</i> </li>
+        </ol>
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
