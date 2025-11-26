@@ -198,6 +198,13 @@ button:hover {
     margin-right: 15px;
 }
 
+.imgstyle1 img {
+    max-width: 425px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #888888;
+}
+
 .foia-agency {
     color: black;
     background-color: #9acae0;
