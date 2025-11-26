@@ -33,6 +33,7 @@ h2 {
     font-size: 24px;
     letter-spacing: 1px;
     text-decoration: underline;
+    padding: 0 4px 0 4px;
 }
 
 h3 {
@@ -132,9 +133,11 @@ button:hover {
 /*Reason boxes set columns*/
 .grid-container {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-gap: 50px;
-    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
+    grid-template-columns: repeat(auto-fit, minmax(200px, max(25%, 200px)));
+    gap: 10px;
+    margin: auto;
+    max-width: 1500px;
+    place-content: center;
 } 
 
 /*Reason boxes*/
@@ -145,24 +148,18 @@ button:hover {
 }
 
 /*Sections*/
-.grid-sections-odd {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-gap: 50px;
-    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
+.flex-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 } 
 
-/*Sections*/
-.grid-sections-even {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    grid-gap: 50px;
-    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
-} 
-.grid-Schild {
+.flex-sec-cont {
     color: black;
     font-size: 16px;
     letter-spacing: 1px;
+    max-width: 750px;
 }
 
 /* used for quotes */
@@ -179,24 +176,19 @@ button:hover {
 .myRef {
     background-color: #f0f0f0;
     border: 1px solid #e9e8e8;
-    margin: 100px 300px 0px 300px;
+    margin: 100px auto;
     padding: 7px 5px 7px 5px;
     color: black;
     text-align: left;
+    max-width: 1150px;
 }
 
-.imgstyle1 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 100px;
+.imgstyle-r img {
+    max-width: 425px;
+    max-height: 100vh;
     border-radius: 15px;
     box-shadow: 8px 8px 8px #888888;
-}
-
-.imgstyle2 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: calc(var(--mymargin2, 24px) + 6px) 0 var(--mymargin2, 24px) 0;
+    margin-left: 15px;
 }
 
 .foia-agency {
