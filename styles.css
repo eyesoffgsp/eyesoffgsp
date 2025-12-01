@@ -129,6 +129,18 @@ button:hover {
     background-color: #0a485f;
 }
 
+.container-alert {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: -8px;
+    margin-bottom: 50px;
+    width: 101%;
+    height: 240%;
+    background-color: yellow;
+    color: black;
+}
+
 /*Reason boxes set columns*/
 .grid-container {
     display: grid;
@@ -209,7 +221,7 @@ button:hover {
     color: black;
     background-color: #9acae0;
     border: 1px solid #8ab9cf;
-    border: 6px;
+    border-radius: 6px;
     width: 50%;
     height: auto;
     margin-left: auto;
