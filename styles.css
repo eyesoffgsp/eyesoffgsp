@@ -48,6 +48,7 @@ h4 {
     letter-spacing: 1px;
     text-align: left;
     margin-top: 0;
+    padding-top: 45px;
 }
 
 h5 {
@@ -61,9 +62,10 @@ h5 {
 .p0 {
     text-align: center;
     color: black;
+    max-width: 700px;
     margin-bottom: 100px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -164,7 +166,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 55px;
 } 
 
 .flex-sec-cont {
@@ -198,11 +200,12 @@ button:hover {
 .imgstyle-r img {
     max-width: 425px;
     height: auto;
-    width:90vw;
+    width: 90vw;
     border-radius: 15px;
     box-shadow: 8px 8px 8px #888888;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 45px;
 }
 
 .imgstyle-l img {
@@ -213,14 +216,16 @@ button:hover {
     box-shadow: 8px 8px 8px #888888;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 45px;
 }
 
 .imgstyle1 img {
     max-width: 425px;
     height: auto;
-    width:90vw;
+    width: 90vw;
     border-radius: 15px;
     box-shadow: 8px 8px 8px #888888;
+    margin-top: 45px;
 }
 
 .foia-agency {
