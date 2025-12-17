@@ -114,8 +114,46 @@
     <div class="lmsection" id="section-3">
         <h4>3. Transparency - Flock</h4>
 
-        <img style="max-width: 425px; height: auto; width:90vw;" src="wayback-optz.png" alt="the wayback machine flock url error: sorry, this url has been excluded from the wayback machine">
-        <p> coming soon
+         <p>
+            Flock says that they believe in transparency, but do they meaningfully practice it?
+        </p>
+        <div class="imgstyle2"><img src="wayback-optz.png" alt="the wayback machine flock url error: sorry, this url has been excluded from the wayback machine"></div>
+        <p> The first red flag is that Flock's website is blocked on the Wayback Machine. The Wayback Machine is an internet archive that takes snapshots of webpages
+            at different times, allowing people to see old versions of webpages in case anything changes. When eyesoffgsp.org quotes Flock's blog to demonstrate their attitude towards something,
+            Flock could later edit the blog and there won't be a good way to prove what they originally said. In contrast, the eyesoffgsp.org code is stored on <a style="color: blue; text-decoration: underline;" href="https://github.com/eyesoffgsp/eyesoffgsp">GitHub,</a>
+            meaning anyone can see every change that was ever made to the website.<br><br>
+
+            Speaking of Flock's blog, they posted a three part series on transparency. Here's how they introduce the series:
+        </p>
+        <div class="quotes"> 
+            "We're presenting this new blog series, <b><em>Policy Pulse,</em></b> because the burden of compliance - navigating this messy lattice of rules and oversight - should not stand in the way of public safety."<a href="#references"><sup>[6]</sup></a>
+        </div>
+        <p>If they're trying to say that they want to make transparency easier so that officers can spend more time fighting crime and less time on FOIA requests,
+            this is the worst way to say it. The connotations imply a loathing of transparency and a hint of disregard for the rule of law and constitutional protections. But there's still two more posts, so let's see
+            if they double down or redeem themselves:
+        </p>
+        <div class="quotes"> 
+            "In the past, law enforcement agencies had little choice in how public search audits were exported from the Transparency Portal. The field of Search Reason was always included, without the option to remove it. And oftentimes, an officer may include sensitive information in this field regarding a current, active investigation."<a href="#references"><sup>[7]</sup></a>
+        </div>
+        <p>
+            If they're trying to say that there used to not be an easy way to redact confidential info, this is the worst way to say it. It feels like coded language for an intent
+            to make it easier for agencies to disclose as little information as possible in FOIA requests, when considering the context of how the <i>search reason</i> field has been used in the past, with thousands of examples of
+            "investigation," "suspect," "donut," "asdf," and similarly vague or meaningless terms being revealed through FOIA requests.<a href="#references"><sup>[8]</sup></a><a href="#references"><sup>[9]</sup></a><br><br>
+
+            In order to address those concerns, Flock went on to introduce a new feature: mandatory Offense Type drop-down selection. Now, if an officer is
+            stalking his ex-girlfriend, instead of typing "inves" as the search reason, he will just have to pick a random crime from the drop-down to pretend to
+            be investigating. This does little to help leadership monitor use of the system, but let's look at a solution that could.<br><br>
+            An independent analyst used sample data to build a search anomaly dashboard (below).<a href="#references"><sup>[10]</sup></a> 
+            It graphs a user's historical search queries by hour and performs statistical analysis to flag suspicious search frequencies or other anomalies.
+        </p>
+        <div class="imgstyle2"><img src="analytics.png" alt="dashboard with search anomaly index score, summary, z-score, hourly activity graph, and search volume"></div>
+        <p>
+            Building on this example dashboard, the system could then have automated alerts, or weekly user analytics reports sent to supervisors for review.
+            It's not a very big ask for a multi-billion dollar company to think of or to implement something that an independent analyst can put together in their free time.
+            Flock could have developed analytics and reporting features years ago, but instead they've been developing new products (something that actually generates revenue).
+            It's also worth noting that law enforcement and council leaderships have not been demanding such accountability measures as customers.<br><br>
+            It's easy to talk about transparency, but true values are imbued into all actions big and small, from decision-making to simple word choices. Flock has demonstrated
+            that they are unable or unwilling to put transparency first.
         </p>
     </div>
     <hr width="50%" size="2" color="black" style="margin-top: 50px; margin-bottom: 55px;" noshade>
@@ -129,6 +167,13 @@
             <li> (11-03-2025). <a href="https://www.wyden.senate.gov/news/press-releases/wyden-krishnamoorthi-urge-ftc-to-investigate-surveillance-tech-company-on-negligently-handling-americans-personal-data">"Wyden, Krishnamoorthi Urge FTC to Investigate Surveillance Tech Company on Negligently Handling Americans' Personal Data."</a> <i>senate.gov</i> </li>
             <li> (11-06-2025). <a href="https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices">"Response to Compiled Security Research on Flock Safety Devices."</a> <i>Flock Safety.</i> </li>
             <li> (05-05-2025). <a href="https://www.flocksafety.com/blog/gunshot-detection-and-license-plate-reader-security-alert">"Gunshot Detection and License Plate Reader Security Alert."</a> <i>Flock Safety.</i> </li>
+            <li> Thomas, Josh (09-12-2025). <a href="https://www.flocksafety.com/blog/policy-pulse-compliance-doesnt-have-to-be-so-hard">"Policy Pulse: Compliance Doesn't Have to Be So Hard."</a> <i>Flock Safety.</i></li>
+            <li> Thomas, Josh (10-30-2025). <a href="https://www.flocksafety.com/blog/policy-pulse-transparency-control-and-the-path-forward">"Policy Pulse: Transparency, Control, and the Path Forward."</a> <i>Flock Safety.</i></li>
+            <li> Begley, Ghisolfi, and deGrood (06-10-2025). <a href="https://www.houstonchronicle.com/projects/2025/houston-flock-surveillance-explained/">"Houston police use a powerful surveillance tool to track vehicles. But they're not explaining why."</a> <i>Houston Chronicle.</i> </li>
+            <li> <a href="https://haveibeenflocked.com/search?q=INV">"Reason Search - Search the reasons given for Flock database searches."</a> <i>Have I Been Flocked?</i></li>
+            <li> H.C. van Pelt (12-03-2025). <a href="https://haveibeenflocked.com/news/search-anomalies/">"Feature: Search Anomalies and Account Sharing."</a> <i>Have I Been Flocked?</i></li>
+            
+<!--believe in transparency: https://www.flocksafety.com/blog/building-public-trust-through-transparency-how-flock-helps-communities--and-why-youll-want-to-be-part-of-it-->
         </ol>
     </div>
 
