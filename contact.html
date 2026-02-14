@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body> 
+
+<body>
 
     <!-- navigation bar -->
     <nav>
@@ -17,49 +19,60 @@
         <button onclick="goFoia()">FOIA</button>
     </nav>
 
-    <!-- back to top button-->    
+    <!-- back to top button-->
     <div class="back2top"><button onclick="b2top()" title="Go to top">^Top</button></div>
 
     <!-- Blue band-->
     <div class="container-fluid">
         <h1>Contact</h1>
-        <div class="p2">You can reach out to eyesoffgsp@proton.me</div>
     </div>
 
     <!-- Mail list -->
-     <div class="foia-agency">
+    <div class="foia-agency">
         <h5 style="padding: 10px 0 10px 10px;">Join the e-mailing list</h5>
 
-         
-        <p style="padding: 0 10px 0 10px;"> If you would like to get email alerts about opportunities to organize and take action,
-            such as community forums or council meetings, you can join the e-mailing list. Please send an email to
-            eyesoffgsp@proton.me requesting to be added to the e-mailing list, and specify which county(ies) and/or city(ies) you are 
-            interested in.
-        </p>
-     </div><br><br>
+        <p style="padding: 0 10px 10px 10px;">If you would like to get email alerts about opportunities to organize and
+            take action,
+            such as community forums or council meetings, you can join the e-mailing list.</p>
+
+        <form
+            action="https://mailing-list-eyesoffgsp.zeabur.app/subscription/form?l=95265c74-2e18-4b25-aa4b-9c161b7ccba3"
+            method="post" style="padding: 0 10px 15px 10px;">
+            <input type="email" name="email" placeholder="your@email.com" required
+                style="padding: 10px; font-size: 16px; width: 70%; max-width: 300px; border-radius: 6px; border: 1px solid #8ab9cf;">
+            <button type="submit"
+                style="padding: 10px 20px; font-size: 16px; background-color: #0a485f; color: white;">Subscribe</button>
+        </form>
+    </div><br><br>
 
     <!-- Get involved -->
-     <div class="foia-agency">
+    <div class="foia-agency">
         <h5 style="padding: 10px 0 10px 10px;">Ways to get involved with eyesoffgsp</h5>
 
         <p style="padding: 0 10px 0 10px;"> Join eyesoffgsp in raising awareness about Flock surveillance tech in GSP.
             Here are some examples of skills that are needed:
-            <ul>
-                <li>Web design</li>
-                <li>Graphic design</li>
-                <li>Social media</li>
-                <li>Public speaking, debate</li>
-                <li>Speech and essay writing</li>
-                <li>Research</li>
-                <li>FOIA requests</li>
-                <li>Data analysis</li>
-                <li>Contract reading</li>
-                <li>Conveying technical information to non-technical audiences</li>
-            </ul>
+        <ul>
+            <li>Web design</li>
+            <li>Graphic design</li>
+            <li>Social media</li>
+            <li>Public speaking, debate</li>
+            <li>Speech and essay writing</li>
+            <li>Research</li>
+            <li>FOIA requests</li>
+            <li>Data analysis</li>
+            <li>Contract reading</li>
+            <li>Conveying technical information to non-technical audiences</li>
+        </ul>
         </p>
-     </div>
+    </div>
+
+    <!-- Contact email -->
+    <div class="foia-agency">
+        <p style="padding: 15px 10px;">You can reach out to eyesoffgsp@proton.me</p>
+    </div>
 
     <!-- Link to JavaScript file -->
     <script src="script.js"></script>
 </body>
+
 </html>
