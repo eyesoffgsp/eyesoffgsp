@@ -267,6 +267,7 @@ button:hover {
     margin-right: auto;
     text-align: left;
     padding: 0 10px 0 10px;
+    line-height: 24px; /*18px font + 6px spacing*/
 }
 
 .back2top {
