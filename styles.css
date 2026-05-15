@@ -270,6 +270,7 @@ button:hover {
     height: auto;
     margin: auto;
     margin-top: 50px;
+    line-height: 24px; /*18px font + 6px spacing*/
 }
 
 .lmsection {
