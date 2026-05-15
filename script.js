@@ -18,6 +18,10 @@ function goFoia() {
     window.location.href = "./foia.html";
 }
 
+function goPrivacy() {
+    window.location.href = "./privacy.html";
+}
+
 function b2top() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

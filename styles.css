@@ -196,6 +196,19 @@ button:hover {
     padding: 15px;
 }
 
+/* used for quotes on Privacy page*/
+.quotes_p {
+    background-color: white;
+    border: 1px solid #8ab9cf;
+    border-radius: 6px;
+    font-style: italic;
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    text-align: left;
+    line-height: 18px; /*18px font + 6px spacing*/
+    margin: 5px 20px 0 20px;
+}
+
 /*References section*/
 .myRef {
     background-color: #f0f0f0;
