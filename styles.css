@@ -289,3 +289,17 @@ button:hover {
     bottom: 10px;
     right: 10px;
 }
+
+caption {
+    caption-side: bottom;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #f0f0f0;
+    padding-left: 5px;
+    margin: auto;
+}
